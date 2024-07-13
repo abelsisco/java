@@ -1,0 +1,18 @@
+import java.lang.*;
+import java.util.*;
+
+class ReadKeyboard{
+
+public static void main(String args[]){
+String name;
+Scanner input=new Scanner(System.in);
+System.out.println("what is your name??");
+
+ 
+name=input.nextLine();
+
+System.out.println("Wellcome "+name);
+
+
+}
+}
